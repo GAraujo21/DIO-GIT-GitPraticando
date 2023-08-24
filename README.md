@@ -34,6 +34,19 @@ Repositório para armazenar resumos sobre o Git e GitHub do curso Versionamento 
 |**git add origin (URL do github)**| está vinculando o repositório local ao remoto.|
 |**git branch -M main** | forçando a alteração do nome da branch, da atual para main.|
 |**git push - u origin main** | é usado para enviar suas alterações locais para um repositório remoto no Git. ***‘git push’***: É o comando que envia suas alterações locais para um repositório remoto; ***‘-u’***: É a opção abreviada de ***--set-upstream***, que configura a branch local como a upstream (ramificação principal de rastreamento) da branch no repositório remoto; ***‘origin’:*** É o nome do repositório remoto padrão. O nome "origin" é frequentemente usado para se referir ao repositório remoto a partir do qual você clonou ou onde você deseja enviar suas alterações; ***‘main’***: É o nome da branch local que você deseja enviar para a branch correspondente no repositório remoto.|
+|**git pull** | O comando ***git pull*** é usado para buscar as alterações mais recentes de um repositório remoto e incorporá-las ao seu repositório local. Basicamente, ele combina duas ações: ***git fetch***, que busca as alterações do repositório remoto, e ***git merge***, que incorpora essas alterações à sua branch local. Pode ser também git pull origin main. |
+|**git checkout -b (nome da branch)** | Cria uma nova branch e muda para ela direto. |
+|**git checkout (nome da branch)** | Muda para a branch chamda |
+|**git branch -v** | É usado para listar os branches existentes no seu repositório Git, juntamente com informações adicionais sobre o último commit em cada branch. A opção -v significa "verbose" (detalhado), e ela exibe o hash do último commitÉ usado para listar os branches existentes no seu repositório Git, juntamente com informações adicionais sobre o último commit em cada branch. A opção -v significa "verbose" (detalhado), e ela exibe o hash do último commit |
+|**git branch** | Lista todas as branchs existentes no repositório |
+|**git merge (nome da branch que quer mesclar)** | mescla uma branch na outra |
+|**git branch -d (nome da branch)** | é usado para excluir um branch local que já foi completamente mesclado (merged) em outro branch |
+|**git fetch origin main** | é usado para buscar as alterações mais recentes do branch "main" no repositório remoto chamado "origin". ***‘git fetch:’*** Isso instrui o Git a buscar as informações mais recentes do repositório remoto. ***'origin':*** É o nome do repositório remoto de onde você deseja buscar as informações. Geralmente, "origin" é o nome padrão dado ao repositório remoto de onde você clonou seu repositório local. ***‘main’:*** É o nome do branch que você deseja buscar do repositório remoto. Neste caso, "main" é o nome do branch. |
+|**git diff** | é usado para mostrar as diferenças entre as alterações não confirmadas (unstaged) nos seus arquivos em comparação com o último commit |
+|**git diff (branch1 e branch2)** | mostra a diferença entre uma branch e outra |
+|**git clone URL --branch (nome da branch) –single-branch** | está clonando uma branch especifica e só ela, de um repositório remoto. |
+|**git stash** | é usado para temporariamente salvar as alterações não confirmadas (unstaged e staged) em um local temporário chamado "stash", permitindo que você limpe sua área de trabalho para realizar outras operações, como alternar de branch ou buscar alterações remotas. Isso é útil quando você não deseja fazer um commit das alterações em andamento, mas precisa alternar para um estado diferente no seu repositório. |
+|**git stash list** | Para ver a lista de stashes guardados, você pode usar o comando |
 
 ## 🔍 Referências 
 - [DIO](https://web.dio.me/)
